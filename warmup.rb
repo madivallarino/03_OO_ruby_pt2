@@ -12,7 +12,7 @@ class Email
         self.receiver = receiver
         self.subject = subject
         self.body = body
-        puts "#{self} will return ____"
+        puts "#{self} will return return instance of the Email class"
     end 
 
     def print_signature 
@@ -21,3 +21,4 @@ class Email
     end 
 
 end 
+
